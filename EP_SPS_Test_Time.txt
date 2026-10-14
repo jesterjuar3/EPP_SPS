@@ -1,0 +1,577 @@
+
+applyJobLimits[A]: Single-job test program loaded
+Assume no External CBIT controls
+CCBit.Initialize[AB] I2C Check PASSED
+printSWVersion[A]:
+	PROJECT_NAME: 'ONSEMI_EPP_SPS_WS'
+	PRODUCT_NAME: 'TemplateProgram_ETS88TH_VS2015' PRODUCT_VER: '1.0.0;   2026/10/09'
+	Folder: 'C:\Program Files\Eagle Test Systems\Applications\ONSEMI_EPP_SPS_WS\'
+	MST 2021B.20 (2021.2.1002.20)
+	VS2019 (1929) Compiler v142 Mode: DEBUG x64
+	Teradyne TerMstApp Library 3.2.2.2961
+
+TARE Type: TARE OFF
+
+Datalog for Serial#: 1   **** DEVICE PASSED ****
+Site Number        : 3
+Station            : ONSEMI_EPP_SPS_WS-1, 1A,1B
+Site Re-Test Number: 0
+Software Bin Number: 1
+Hardware Bin Number: 1
+TEST#   RESULT UNITS P/F    LOWER    UPPER ALARM TEST NAME              
+----- -------- ----- --- -------- -------- ----- ---------------------- 
+100.1 Cont_Vss_VIN_A                                                          
+100.0    0.992     V        0.200    1.400       Cont_Vss_VIN_A         
+101.1 Cont_Vss_SW_A                                                          
+101.0    0.498     V        0.200    0.900       Cont_Vss_SW_A          
+102.1 Cont_Vss_PH_A                                                          
+102.0    0.498     V        0.200    0.900       Cont_Vss_PH_A          
+103.1 Cont_Vss_LG_A                                                          
+103.0    0.625     V        0.200    0.900       Cont_Vss_LG_A          
+104.1 Cont_Vss_BST_A                                                          
+104.0    0.588     V        0.200    0.900       Cont_Vss_BST_A         
+106.1 Cont_Vss_VDD_A                                                          
+106.0    0.472     V        0.200    0.900       Cont_Vss_VDD_A         
+107.1 Cont_Vss_IOUT_A                                                          
+107.0    0.522     V        0.200    0.900       Cont_Vss_IOUT_A        
+108.1 Cont_Vss_TOUT_A                                                          
+108.0    1.034     V        0.200    1.400       Cont_Vss_TOUT_A        
+110.1 Cont_Vss_PWM_A                                                          
+110.0    0.559     V        0.200    0.900       Cont_Vss_PWM_A         
+111.1 Cont_Vss_VIN_B                                                          
+111.0    0.992     V        0.200    1.400       Cont_Vss_VIN_B         
+112.1 Cont_Vss_SW_B                                                          
+112.0    0.498     V        0.200    0.900       Cont_Vss_SW_B          
+113.1 Cont_Vss_PH_B                                                          
+113.0    0.498     V        0.200    0.900       Cont_Vss_PH_B          
+115.1 Cont_Vss_LG_B                                                          
+115.0    0.621     V        0.200    0.900       Cont_Vss_LG_B          
+116.1 Cont_Vss_BST_B                                                          
+116.0    0.588     V        0.200    0.900       Cont_Vss_BST_B         
+117.1 Cont_Vss_VDD_B                                                          
+117.0    0.472     V        0.200    0.900       Cont_Vss_VDD_B         
+118.1 Cont_Vss_IOUT_B                                                          
+118.0    0.522     V        0.200    0.900       Cont_Vss_IOUT_B        
+120.1 Cont_Vss_EN_B                                                          
+120.0    0.521     V        0.200    0.900       Cont_Vss_EN_B          
+121.1 Cont_Vss_PWM_B                                                          
+121.0    0.542     V        0.200    0.900       Cont_Vss_PWM_B         
+200.1 Boot_A_Fwd_Voltage                                                          
+200.0    0.349     V        0.100    0.600       BST_A_Fwd_Voltage      
+210.1 Boot_B_Fwd_Voltage                                                          
+210.0    0.348     V        0.100    0.600       BST_B_Fwd_Voltage      
+300.1 VDD_A_Shutdown_Current                                                          
+300.0   36.265    uA        0.100   65.000       VDD_A_Shutdown_Current 
+310.1 VDD_A_Active_Current                                                          
+310.0    1.850    mA        0.100    2.400       VDD_A_Active_Current   
+320.1 VDD_B_Shutdown_Current                                                          
+320.0   36.095    uA        0.100   65.000       VDD_B_Shutdown_Current 
+330.1 VDD_B_Active_Current                                                          
+330.0    1.850    mA        0.100    2.400       VDD_B_Active_Current   
+400.1 HS_VSD_A                                                          
+400.0    0.609     V        0.200    2.200       HS_A_VSD               
+410.1 LS_VSD_A                                                          
+410.0    0.582     V        0.200    2.200       LS_A_VSD               
+420.1 HS_VSD_B                                                          
+420.0    0.610     V        0.200    2.200       HS_B_VSD               
+430.1 LS_VSD_B                                                          
+430.0    0.582     V        0.200    2.200       LS_B_VSD               
+
+TEST TIMING ANALYSIS
+---------------------
+Total Index Time    : 0-mSec
+
+Distribution 1 Timing
+  OnTestStartup       : 907-uSec, wait= 603-uSec, user=321-uSec(35%), system=282-uSec(31%)
+  Cont_Vss_VIN_A      : 17096-uSec, wait= 11710-uSec, user=8010-uSec(46%), system=3700-uSec(21%)
+  Cont_Vss_SW_A       : 17980-uSec, wait= 11716-uSec, user=8010-uSec(44%), system=3706-uSec(20%)
+  Cont_Vss_PH_A       : 17994-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_LG_A       : 16100-uSec, wait= 11722-uSec, user=8010-uSec(49%), system=3712-uSec(23%)
+  Cont_Vss_BST_A      : 18439-uSec, wait= 11710-uSec, user=8010-uSec(43%), system=3700-uSec(20%)
+  Cont_Vss_VDD_A      : 18856-uSec, wait= 11710-uSec, user=8010-uSec(42%), system=3700-uSec(19%)
+  Cont_Vss_IOUT_A     : 18109-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_TOUT_A     : 17957-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_PWM_A      : 18018-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_VIN_B      : 18036-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_SW_B       : 15963-uSec, wait= 11710-uSec, user=8010-uSec(50%), system=3700-uSec(23%)
+  Cont_Vss_PH_B       : 18044-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_LG_B       : 16053-uSec, wait= 11722-uSec, user=8010-uSec(49%), system=3712-uSec(23%)
+  Cont_Vss_BST_B      : 18990-uSec, wait= 11710-uSec, user=8010-uSec(42%), system=3700-uSec(19%)
+  Cont_Vss_VDD_B      : 16683-uSec, wait= 11710-uSec, user=8010-uSec(48%), system=3700-uSec(22%)
+  Cont_Vss_IOUT_B     : 16052-uSec, wait= 11710-uSec, user=8010-uSec(49%), system=3700-uSec(23%)
+  Cont_Vss_EN_B       : 18141-uSec, wait= 11722-uSec, user=8010-uSec(44%), system=3712-uSec(20%)
+  Cont_Vss_PWM_B      : 15984-uSec, wait= 11710-uSec, user=8010-uSec(50%), system=3700-uSec(23%)
+  Boot_A_Fwd_Voltage  : 15967-uSec, wait= 11710-uSec, user=8010-uSec(50%), system=3700-uSec(23%)
+  Boot_B_Fwd_Voltage  : 18031-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  VDD_A_Shutdown_Current: 28742-uSec, wait= 18922-uSec, user=15010-uSec(52%), system=3912-uSec(13%)
+  VDD_A_Active_Current: 28349-uSec, wait= 18710-uSec, user=15010-uSec(52%), system=3700-uSec(13%)
+  VDD_B_Shutdown_Current: 26613-uSec, wait= 18922-uSec, user=15010-uSec(56%), system=3912-uSec(14%)
+  VDD_B_Active_Current: 26303-uSec, wait= 18710-uSec, user=15010-uSec(57%), system=3700-uSec(14%)
+  HS_VSD_A            : 17645-uSec, wait= 11410-uSec, user=7310-uSec(41%), system=4100-uSec(23%)
+  LS_VSD_A            : 17584-uSec, wait= 11410-uSec, user=7310-uSec(41%), system=4100-uSec(23%)
+  HS_VSD_B            : 17863-uSec, wait= 11410-uSec, user=7310-uSec(40%), system=4100-uSec(22%)
+  LS_VSD_B            : 16172-uSec, wait= 11410-uSec, user=7310-uSec(45%), system=4100-uSec(25%)
+  OnTestCompletion    : 504-uSec, wait= 484-uSec, user=220-uSec(43%), system=264-uSec(52%)
+  Total Wait          : 356233-uSec, user=250021-uSec, system=106212-uSec
+  Sum Total           : 529175-uSec
+
+Absolute Comparison Timing, Times reported are when tests are completed
+                               Distribution 1
+  OnTestStartup       :              977-uSec
+  Cont_Vss_VIN_A      :            18161-uSec
+  Cont_Vss_SW_A       :            36143-uSec
+  Cont_Vss_PH_A       :            54139-uSec
+  Cont_Vss_LG_A       :            70240-uSec
+  Cont_Vss_BST_A      :            88680-uSec
+  Cont_Vss_VDD_A      :           107537-uSec
+  Cont_Vss_IOUT_A     :           125648-uSec
+  Cont_Vss_TOUT_A     :           143605-uSec
+  Cont_Vss_PWM_A      :           161624-uSec
+  Cont_Vss_VIN_B      :           179659-uSec
+  Cont_Vss_SW_B       :           195623-uSec
+  Cont_Vss_PH_B       :           213668-uSec
+  Cont_Vss_LG_B       :           229721-uSec
+  Cont_Vss_BST_B      :           248712-uSec
+  Cont_Vss_VDD_B      :           265395-uSec
+  Cont_Vss_IOUT_B     :           281447-uSec
+  Cont_Vss_EN_B       :           299589-uSec
+  Cont_Vss_PWM_B      :           315574-uSec
+  Boot_A_Fwd_Voltage  :           331542-uSec
+  Boot_B_Fwd_Voltage  :           349573-uSec
+  VDD_A_Shutdown_Current:           378316-uSec
+  VDD_A_Active_Current:           406664-uSec
+  VDD_B_Shutdown_Current:           433278-uSec
+  VDD_B_Active_Current:           459583-uSec
+  HS_VSD_A            :           477229-uSec
+  LS_VSD_A            :           494813-uSec
+  HS_VSD_B            :           512676-uSec
+  LS_VSD_B            :           528849-uSec
+  OnTestCompletion    :           529468-uSec
+
+Overall             : 529.541029470142-mSec
+I/O Overhead        : 1.24446292760691-mSec
+
+
+
+Datalog for Serial#: 2   **** DEVICE PASSED ****
+Site Number        : 3
+Station            : ONSEMI_EPP_SPS_WS-1, 1A,1B
+Site Re-Test Number: 0
+Software Bin Number: 1
+Hardware Bin Number: 1
+TEST#   RESULT UNITS P/F    LOWER    UPPER ALARM TEST NAME              
+----- -------- ----- --- -------- -------- ----- ---------------------- 
+100.1 Cont_Vss_VIN_A                                                          
+100.0    0.992     V        0.200    1.400       Cont_Vss_VIN_A         
+101.1 Cont_Vss_SW_A                                                          
+101.0    0.498     V        0.200    0.900       Cont_Vss_SW_A          
+102.1 Cont_Vss_PH_A                                                          
+102.0    0.498     V        0.200    0.900       Cont_Vss_PH_A          
+103.1 Cont_Vss_LG_A                                                          
+103.0    0.625     V        0.200    0.900       Cont_Vss_LG_A          
+104.1 Cont_Vss_BST_A                                                          
+104.0    0.588     V        0.200    0.900       Cont_Vss_BST_A         
+106.1 Cont_Vss_VDD_A                                                          
+106.0    0.472     V        0.200    0.900       Cont_Vss_VDD_A         
+107.1 Cont_Vss_IOUT_A                                                          
+107.0    0.522     V        0.200    0.900       Cont_Vss_IOUT_A        
+108.1 Cont_Vss_TOUT_A                                                          
+108.0    1.034     V        0.200    1.400       Cont_Vss_TOUT_A        
+110.1 Cont_Vss_PWM_A                                                          
+110.0    0.559     V        0.200    0.900       Cont_Vss_PWM_A         
+111.1 Cont_Vss_VIN_B                                                          
+111.0    0.992     V        0.200    1.400       Cont_Vss_VIN_B         
+112.1 Cont_Vss_SW_B                                                          
+112.0    0.498     V        0.200    0.900       Cont_Vss_SW_B          
+113.1 Cont_Vss_PH_B                                                          
+113.0    0.498     V        0.200    0.900       Cont_Vss_PH_B          
+115.1 Cont_Vss_LG_B                                                          
+115.0    0.621     V        0.200    0.900       Cont_Vss_LG_B          
+116.1 Cont_Vss_BST_B                                                          
+116.0    0.588     V        0.200    0.900       Cont_Vss_BST_B         
+117.1 Cont_Vss_VDD_B                                                          
+117.0    0.472     V        0.200    0.900       Cont_Vss_VDD_B         
+118.1 Cont_Vss_IOUT_B                                                          
+118.0    0.522     V        0.200    0.900       Cont_Vss_IOUT_B        
+120.1 Cont_Vss_EN_B                                                          
+120.0    0.521     V        0.200    0.900       Cont_Vss_EN_B          
+121.1 Cont_Vss_PWM_B                                                          
+121.0    0.542     V        0.200    0.900       Cont_Vss_PWM_B         
+200.1 Boot_A_Fwd_Voltage                                                          
+200.0    0.349     V        0.100    0.600       BST_A_Fwd_Voltage      
+210.1 Boot_B_Fwd_Voltage                                                          
+210.0    0.347     V        0.100    0.600       BST_B_Fwd_Voltage      
+300.1 VDD_A_Shutdown_Current                                                          
+300.0   36.161    uA        0.100   65.000       VDD_A_Shutdown_Current 
+310.1 VDD_A_Active_Current                                                          
+310.0    1.851    mA        0.100    2.400       VDD_A_Active_Current   
+320.1 VDD_B_Shutdown_Current                                                          
+320.0   36.161    uA        0.100   65.000       VDD_B_Shutdown_Current 
+330.1 VDD_B_Active_Current                                                          
+330.0    1.859    mA        0.100    2.400       VDD_B_Active_Current   
+400.1 HS_VSD_A                                                          
+400.0    0.609     V        0.200    2.200       HS_A_VSD               
+410.1 LS_VSD_A                                                          
+410.0    0.581     V        0.200    2.200       LS_A_VSD               
+420.1 HS_VSD_B                                                          
+420.0    0.610     V        0.200    2.200       HS_B_VSD               
+430.1 LS_VSD_B                                                          
+430.0    0.582     V        0.200    2.200       LS_B_VSD               
+
+TEST TIMING ANALYSIS
+---------------------
+Total Index Time    : 4180.23721983831-mSec
+
+Distribution 1 Timing
+  OnTestStartup       : 944-uSec, wait= 603-uSec, user=321-uSec(34%), system=282-uSec(29%)
+  Cont_Vss_VIN_A      : 16431-uSec, wait= 11710-uSec, user=8010-uSec(48%), system=3700-uSec(22%)
+  Cont_Vss_SW_A       : 18221-uSec, wait= 11716-uSec, user=8010-uSec(43%), system=3706-uSec(20%)
+  Cont_Vss_PH_A       : 18083-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_LG_A       : 16270-uSec, wait= 11722-uSec, user=8010-uSec(49%), system=3712-uSec(22%)
+  Cont_Vss_BST_A      : 18297-uSec, wait= 11710-uSec, user=8010-uSec(43%), system=3700-uSec(20%)
+  Cont_Vss_VDD_A      : 18119-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_IOUT_A     : 18806-uSec, wait= 11710-uSec, user=8010-uSec(42%), system=3700-uSec(19%)
+  Cont_Vss_TOUT_A     : 18045-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_PWM_A      : 18050-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_VIN_B      : 18245-uSec, wait= 11710-uSec, user=8010-uSec(43%), system=3700-uSec(20%)
+  Cont_Vss_SW_B       : 16016-uSec, wait= 11710-uSec, user=8010-uSec(50%), system=3700-uSec(23%)
+  Cont_Vss_PH_B       : 18083-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_LG_B       : 16205-uSec, wait= 11722-uSec, user=8010-uSec(49%), system=3712-uSec(22%)
+  Cont_Vss_BST_B      : 18060-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_VDD_B      : 15974-uSec, wait= 11710-uSec, user=8010-uSec(50%), system=3700-uSec(23%)
+  Cont_Vss_IOUT_B     : 16140-uSec, wait= 11710-uSec, user=8010-uSec(49%), system=3700-uSec(22%)
+  Cont_Vss_EN_B       : 18328-uSec, wait= 11722-uSec, user=8010-uSec(43%), system=3712-uSec(20%)
+  Cont_Vss_PWM_B      : 16797-uSec, wait= 11710-uSec, user=8010-uSec(47%), system=3700-uSec(22%)
+  Boot_A_Fwd_Voltage  : 15992-uSec, wait= 11710-uSec, user=8010-uSec(50%), system=3700-uSec(23%)
+  Boot_B_Fwd_Voltage  : 18130-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  VDD_A_Shutdown_Current: 28694-uSec, wait= 18922-uSec, user=15010-uSec(52%), system=3912-uSec(13%)
+  VDD_A_Active_Current: 27582-uSec, wait= 18710-uSec, user=15010-uSec(54%), system=3700-uSec(13%)
+  VDD_B_Shutdown_Current: 26588-uSec, wait= 18922-uSec, user=15010-uSec(56%), system=3912-uSec(14%)
+  VDD_B_Active_Current: 26265-uSec, wait= 18710-uSec, user=15010-uSec(57%), system=3700-uSec(14%)
+  HS_VSD_A            : 18161-uSec, wait= 11410-uSec, user=7310-uSec(40%), system=4100-uSec(22%)
+  LS_VSD_A            : 17608-uSec, wait= 11410-uSec, user=7310-uSec(41%), system=4100-uSec(23%)
+  HS_VSD_B            : 17521-uSec, wait= 11410-uSec, user=7310-uSec(41%), system=4100-uSec(23%)
+  LS_VSD_B            : 15451-uSec, wait= 11410-uSec, user=7310-uSec(47%), system=4100-uSec(26%)
+  OnTestCompletion    : 552-uSec, wait= 484-uSec, user=220-uSec(39%), system=264-uSec(47%)
+  Total Wait          : 356233-uSec, user=250021-uSec, system=106212-uSec
+  Sum Total           : 527658-uSec
+
+Absolute Comparison Timing, Times reported are when tests are completed
+                               Distribution 1
+  OnTestStartup       :             1092-uSec
+  Cont_Vss_VIN_A      :            17632-uSec
+  Cont_Vss_SW_A       :            35855-uSec
+  Cont_Vss_PH_A       :            53940-uSec
+  Cont_Vss_LG_A       :            70212-uSec
+  Cont_Vss_BST_A      :            88511-uSec
+  Cont_Vss_VDD_A      :           106631-uSec
+  Cont_Vss_IOUT_A     :           125440-uSec
+  Cont_Vss_TOUT_A     :           143486-uSec
+  Cont_Vss_PWM_A      :           161537-uSec
+  Cont_Vss_VIN_B      :           179783-uSec
+  Cont_Vss_SW_B       :           195800-uSec
+  Cont_Vss_PH_B       :           213883-uSec
+  Cont_Vss_LG_B       :           230088-uSec
+  Cont_Vss_BST_B      :           248149-uSec
+  Cont_Vss_VDD_B      :           264124-uSec
+  Cont_Vss_IOUT_B     :           280264-uSec
+  Cont_Vss_EN_B       :           298593-uSec
+  Cont_Vss_PWM_B      :           315390-uSec
+  Boot_A_Fwd_Voltage  :           331383-uSec
+  Boot_B_Fwd_Voltage  :           349513-uSec
+  VDD_A_Shutdown_Current:           378209-uSec
+  VDD_A_Active_Current:           405792-uSec
+  VDD_B_Shutdown_Current:           432380-uSec
+  VDD_B_Active_Current:           458646-uSec
+  HS_VSD_A            :           476809-uSec
+  LS_VSD_A            :           494418-uSec
+  HS_VSD_B            :           511939-uSec
+  LS_VSD_B            :           527391-uSec
+  OnTestCompletion    :           528120-uSec
+
+Overall             : 528.198899831761-mSec
+I/O Overhead        : 1.04597896700125-mSec
+
+
+
+Datalog for Serial#: 3   **** DEVICE PASSED ****
+Site Number        : 3
+Station            : ONSEMI_EPP_SPS_WS-1, 1A,1B
+Site Re-Test Number: 0
+Software Bin Number: 1
+Hardware Bin Number: 1
+TEST#   RESULT UNITS P/F    LOWER    UPPER ALARM TEST NAME              
+----- -------- ----- --- -------- -------- ----- ---------------------- 
+100.1 Cont_Vss_VIN_A                                                          
+100.0    0.992     V        0.200    1.400       Cont_Vss_VIN_A         
+101.1 Cont_Vss_SW_A                                                          
+101.0    0.498     V        0.200    0.900       Cont_Vss_SW_A          
+102.1 Cont_Vss_PH_A                                                          
+102.0    0.498     V        0.200    0.900       Cont_Vss_PH_A          
+103.1 Cont_Vss_LG_A                                                          
+103.0    0.625     V        0.200    0.900       Cont_Vss_LG_A          
+104.1 Cont_Vss_BST_A                                                          
+104.0    0.588     V        0.200    0.900       Cont_Vss_BST_A         
+106.1 Cont_Vss_VDD_A                                                          
+106.0    0.472     V        0.200    0.900       Cont_Vss_VDD_A         
+107.1 Cont_Vss_IOUT_A                                                          
+107.0    0.522     V        0.200    0.900       Cont_Vss_IOUT_A        
+108.1 Cont_Vss_TOUT_A                                                          
+108.0    1.034     V        0.200    1.400       Cont_Vss_TOUT_A        
+110.1 Cont_Vss_PWM_A                                                          
+110.0    0.559     V        0.200    0.900       Cont_Vss_PWM_A         
+111.1 Cont_Vss_VIN_B                                                          
+111.0    0.992     V        0.200    1.400       Cont_Vss_VIN_B         
+112.1 Cont_Vss_SW_B                                                          
+112.0    0.498     V        0.200    0.900       Cont_Vss_SW_B          
+113.1 Cont_Vss_PH_B                                                          
+113.0    0.498     V        0.200    0.900       Cont_Vss_PH_B          
+115.1 Cont_Vss_LG_B                                                          
+115.0    0.621     V        0.200    0.900       Cont_Vss_LG_B          
+116.1 Cont_Vss_BST_B                                                          
+116.0    0.588     V        0.200    0.900       Cont_Vss_BST_B         
+117.1 Cont_Vss_VDD_B                                                          
+117.0    0.472     V        0.200    0.900       Cont_Vss_VDD_B         
+118.1 Cont_Vss_IOUT_B                                                          
+118.0    0.522     V        0.200    0.900       Cont_Vss_IOUT_B        
+120.1 Cont_Vss_EN_B                                                          
+120.0    0.521     V        0.200    0.900       Cont_Vss_EN_B          
+121.1 Cont_Vss_PWM_B                                                          
+121.0    0.542     V        0.200    0.900       Cont_Vss_PWM_B         
+200.1 Boot_A_Fwd_Voltage                                                          
+200.0    0.349     V        0.100    0.600       BST_A_Fwd_Voltage      
+210.1 Boot_B_Fwd_Voltage                                                          
+210.0    0.347     V        0.100    0.600       BST_B_Fwd_Voltage      
+300.1 VDD_A_Shutdown_Current                                                          
+300.0   36.003    uA        0.100   65.000       VDD_A_Shutdown_Current 
+310.1 VDD_A_Active_Current                                                          
+310.0    1.850    mA        0.100    2.400       VDD_A_Active_Current   
+320.1 VDD_B_Shutdown_Current                                                          
+320.0   35.964    uA        0.100   65.000       VDD_B_Shutdown_Current 
+330.1 VDD_B_Active_Current                                                          
+330.0    1.850    mA        0.100    2.400       VDD_B_Active_Current   
+400.1 HS_VSD_A                                                          
+400.0    0.609     V        0.200    2.200       HS_A_VSD               
+410.1 LS_VSD_A                                                          
+410.0    0.581     V        0.200    2.200       LS_A_VSD               
+420.1 HS_VSD_B                                                          
+420.0    0.610     V        0.200    2.200       HS_B_VSD               
+430.1 LS_VSD_B                                                          
+430.0    0.581     V        0.200    2.200       LS_B_VSD               
+
+TEST TIMING ANALYSIS
+---------------------
+Total Index Time    : 4052.56910707422-mSec
+
+Distribution 1 Timing
+  OnTestStartup       : 943-uSec, wait= 603-uSec, user=321-uSec(34%), system=282-uSec(29%)
+  Cont_Vss_VIN_A      : 16327-uSec, wait= 11710-uSec, user=8010-uSec(49%), system=3700-uSec(22%)
+  Cont_Vss_SW_A       : 18170-uSec, wait= 11716-uSec, user=8010-uSec(44%), system=3706-uSec(20%)
+  Cont_Vss_PH_A       : 18082-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_LG_A       : 16617-uSec, wait= 11722-uSec, user=8010-uSec(48%), system=3712-uSec(22%)
+  Cont_Vss_BST_A      : 18099-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_VDD_A      : 18165-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_IOUT_A     : 18761-uSec, wait= 11710-uSec, user=8010-uSec(42%), system=3700-uSec(19%)
+  Cont_Vss_TOUT_A     : 18844-uSec, wait= 11710-uSec, user=8010-uSec(42%), system=3700-uSec(19%)
+  Cont_Vss_PWM_A      : 18081-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_VIN_B      : 18090-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_SW_B       : 15977-uSec, wait= 11710-uSec, user=8010-uSec(50%), system=3700-uSec(23%)
+  Cont_Vss_PH_B       : 18084-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_LG_B       : 16086-uSec, wait= 11722-uSec, user=8010-uSec(49%), system=3712-uSec(23%)
+  Cont_Vss_BST_B      : 18313-uSec, wait= 11710-uSec, user=8010-uSec(43%), system=3700-uSec(20%)
+  Cont_Vss_VDD_B      : 16084-uSec, wait= 11710-uSec, user=8010-uSec(49%), system=3700-uSec(23%)
+  Cont_Vss_IOUT_B     : 16118-uSec, wait= 11710-uSec, user=8010-uSec(49%), system=3700-uSec(22%)
+  Cont_Vss_EN_B       : 18419-uSec, wait= 11722-uSec, user=8010-uSec(43%), system=3712-uSec(20%)
+  Cont_Vss_PWM_B      : 16854-uSec, wait= 11710-uSec, user=8010-uSec(47%), system=3700-uSec(21%)
+  Boot_A_Fwd_Voltage  : 16202-uSec, wait= 11710-uSec, user=8010-uSec(49%), system=3700-uSec(22%)
+  Boot_B_Fwd_Voltage  : 18201-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  VDD_A_Shutdown_Current: 28713-uSec, wait= 18922-uSec, user=15010-uSec(52%), system=3912-uSec(13%)
+  VDD_A_Active_Current: 29039-uSec, wait= 18710-uSec, user=15010-uSec(51%), system=3700-uSec(12%)
+  VDD_B_Shutdown_Current: 26631-uSec, wait= 18922-uSec, user=15010-uSec(56%), system=3912-uSec(14%)
+  VDD_B_Active_Current: 26243-uSec, wait= 18710-uSec, user=15010-uSec(57%), system=3700-uSec(14%)
+  HS_VSD_A            : 18361-uSec, wait= 11410-uSec, user=7310-uSec(39%), system=4100-uSec(22%)
+  LS_VSD_A            : 17504-uSec, wait= 11410-uSec, user=7310-uSec(41%), system=4100-uSec(23%)
+  HS_VSD_B            : 17492-uSec, wait= 11410-uSec, user=7310-uSec(41%), system=4100-uSec(23%)
+  LS_VSD_B            : 15489-uSec, wait= 11410-uSec, user=7310-uSec(47%), system=4100-uSec(26%)
+  OnTestCompletion    : 504-uSec, wait= 484-uSec, user=220-uSec(43%), system=264-uSec(52%)
+  Total Wait          : 356233-uSec, user=250021-uSec, system=106212-uSec
+  Sum Total           : 530493-uSec
+
+Absolute Comparison Timing, Times reported are when tests are completed
+                               Distribution 1
+  OnTestStartup       :             1135-uSec
+  Cont_Vss_VIN_A      :            17545-uSec
+  Cont_Vss_SW_A       :            35718-uSec
+  Cont_Vss_PH_A       :            53802-uSec
+  Cont_Vss_LG_A       :            70420-uSec
+  Cont_Vss_BST_A      :            88521-uSec
+  Cont_Vss_VDD_A      :           106687-uSec
+  Cont_Vss_IOUT_A     :           125450-uSec
+  Cont_Vss_TOUT_A     :           144295-uSec
+  Cont_Vss_PWM_A      :           162377-uSec
+  Cont_Vss_VIN_B      :           180468-uSec
+  Cont_Vss_SW_B       :           196446-uSec
+  Cont_Vss_PH_B       :           214531-uSec
+  Cont_Vss_LG_B       :           230617-uSec
+  Cont_Vss_BST_B      :           248930-uSec
+  Cont_Vss_VDD_B      :           265015-uSec
+  Cont_Vss_IOUT_B     :           281134-uSec
+  Cont_Vss_EN_B       :           299554-uSec
+  Cont_Vss_PWM_B      :           316408-uSec
+  Boot_A_Fwd_Voltage  :           332611-uSec
+  Boot_B_Fwd_Voltage  :           350812-uSec
+  VDD_A_Shutdown_Current:           379527-uSec
+  VDD_A_Active_Current:           408566-uSec
+  VDD_B_Shutdown_Current:           435197-uSec
+  VDD_B_Active_Current:           461441-uSec
+  HS_VSD_A            :           479803-uSec
+  LS_VSD_A            :           497307-uSec
+  HS_VSD_B            :           514800-uSec
+  LS_VSD_B            :           530291-uSec
+  OnTestCompletion    :           530933-uSec
+
+Overall             : 530.996578514584-mSec
+I/O Overhead        : 1.28423848320448-mSec
+
+
+
+Datalog for Serial#: 4   **** DEVICE PASSED ****
+Site Number        : 3
+Station            : ONSEMI_EPP_SPS_WS-1, 1A,1B
+Site Re-Test Number: 0
+Software Bin Number: 1
+Hardware Bin Number: 1
+TEST#   RESULT UNITS P/F    LOWER    UPPER ALARM TEST NAME              
+----- -------- ----- --- -------- -------- ----- ---------------------- 
+100.1 Cont_Vss_VIN_A                                                          
+100.0    0.992     V        0.200    1.400       Cont_Vss_VIN_A         
+101.1 Cont_Vss_SW_A                                                          
+101.0    0.498     V        0.200    0.900       Cont_Vss_SW_A          
+102.1 Cont_Vss_PH_A                                                          
+102.0    0.498     V        0.200    0.900       Cont_Vss_PH_A          
+103.1 Cont_Vss_LG_A                                                          
+103.0    0.625     V        0.200    0.900       Cont_Vss_LG_A          
+104.1 Cont_Vss_BST_A                                                          
+104.0    0.588     V        0.200    0.900       Cont_Vss_BST_A         
+106.1 Cont_Vss_VDD_A                                                          
+106.0    0.472     V        0.200    0.900       Cont_Vss_VDD_A         
+107.1 Cont_Vss_IOUT_A                                                          
+107.0    0.522     V        0.200    0.900       Cont_Vss_IOUT_A        
+108.1 Cont_Vss_TOUT_A                                                          
+108.0    1.034     V        0.200    1.400       Cont_Vss_TOUT_A        
+110.1 Cont_Vss_PWM_A                                                          
+110.0    0.559     V        0.200    0.900       Cont_Vss_PWM_A         
+111.1 Cont_Vss_VIN_B                                                          
+111.0    0.992     V        0.200    1.400       Cont_Vss_VIN_B         
+112.1 Cont_Vss_SW_B                                                          
+112.0    0.498     V        0.200    0.900       Cont_Vss_SW_B          
+113.1 Cont_Vss_PH_B                                                          
+113.0    0.498     V        0.200    0.900       Cont_Vss_PH_B          
+115.1 Cont_Vss_LG_B                                                          
+115.0    0.621     V        0.200    0.900       Cont_Vss_LG_B          
+116.1 Cont_Vss_BST_B                                                          
+116.0    0.587     V        0.200    0.900       Cont_Vss_BST_B         
+117.1 Cont_Vss_VDD_B                                                          
+117.0    0.472     V        0.200    0.900       Cont_Vss_VDD_B         
+118.1 Cont_Vss_IOUT_B                                                          
+118.0    0.522     V        0.200    0.900       Cont_Vss_IOUT_B        
+120.1 Cont_Vss_EN_B                                                          
+120.0    0.521     V        0.200    0.900       Cont_Vss_EN_B          
+121.1 Cont_Vss_PWM_B                                                          
+121.0    0.542     V        0.200    0.900       Cont_Vss_PWM_B         
+200.1 Boot_A_Fwd_Voltage                                                          
+200.0    0.349     V        0.100    0.600       BST_A_Fwd_Voltage      
+210.1 Boot_B_Fwd_Voltage                                                          
+210.0    0.347     V        0.100    0.600       BST_B_Fwd_Voltage      
+300.1 VDD_A_Shutdown_Current                                                          
+300.0   36.121    uA        0.100   65.000       VDD_A_Shutdown_Current 
+310.1 VDD_A_Active_Current                                                          
+310.0    1.850    mA        0.100    2.400       VDD_A_Active_Current   
+320.1 VDD_B_Shutdown_Current                                                          
+320.0   36.174    uA        0.100   65.000       VDD_B_Shutdown_Current 
+330.1 VDD_B_Active_Current                                                          
+330.0    1.850    mA        0.100    2.400       VDD_B_Active_Current   
+400.1 HS_VSD_A                                                          
+400.0    0.609     V        0.200    2.200       HS_A_VSD               
+410.1 LS_VSD_A                                                          
+410.0    0.581     V        0.200    2.200       LS_A_VSD               
+420.1 HS_VSD_B                                                          
+420.0    0.610     V        0.200    2.200       HS_B_VSD               
+430.1 LS_VSD_B                                                          
+430.0    0.581     V        0.200    2.200       LS_B_VSD               
+
+TEST TIMING ANALYSIS
+---------------------
+Total Index Time    : 4044.73489789103-mSec
+
+Distribution 1 Timing
+  OnTestStartup       : 946-uSec, wait= 603-uSec, user=321-uSec(33%), system=282-uSec(29%)
+  Cont_Vss_VIN_A      : 16535-uSec, wait= 11710-uSec, user=8010-uSec(48%), system=3700-uSec(22%)
+  Cont_Vss_SW_A       : 18388-uSec, wait= 11716-uSec, user=8010-uSec(43%), system=3706-uSec(20%)
+  Cont_Vss_PH_A       : 18138-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_LG_A       : 16151-uSec, wait= 11722-uSec, user=8010-uSec(49%), system=3712-uSec(22%)
+  Cont_Vss_BST_A      : 18118-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_VDD_A      : 18137-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_IOUT_A     : 18858-uSec, wait= 11710-uSec, user=8010-uSec(42%), system=3700-uSec(19%)
+  Cont_Vss_TOUT_A     : 18841-uSec, wait= 11710-uSec, user=8010-uSec(42%), system=3700-uSec(19%)
+  Cont_Vss_PWM_A      : 18165-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_VIN_B      : 18949-uSec, wait= 11710-uSec, user=8010-uSec(42%), system=3700-uSec(19%)
+  Cont_Vss_SW_B       : 16830-uSec, wait= 11710-uSec, user=8010-uSec(47%), system=3700-uSec(21%)
+  Cont_Vss_PH_B       : 18274-uSec, wait= 11710-uSec, user=8010-uSec(43%), system=3700-uSec(20%)
+  Cont_Vss_LG_B       : 16218-uSec, wait= 11722-uSec, user=8010-uSec(49%), system=3712-uSec(22%)
+  Cont_Vss_BST_B      : 18069-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  Cont_Vss_VDD_B      : 15968-uSec, wait= 11710-uSec, user=8010-uSec(50%), system=3700-uSec(23%)
+  Cont_Vss_IOUT_B     : 16006-uSec, wait= 11710-uSec, user=8010-uSec(50%), system=3700-uSec(23%)
+  Cont_Vss_EN_B       : 18643-uSec, wait= 11722-uSec, user=8010-uSec(42%), system=3712-uSec(19%)
+  Cont_Vss_PWM_B      : 16739-uSec, wait= 11710-uSec, user=8010-uSec(47%), system=3700-uSec(22%)
+  Boot_A_Fwd_Voltage  : 15972-uSec, wait= 11710-uSec, user=8010-uSec(50%), system=3700-uSec(23%)
+  Boot_B_Fwd_Voltage  : 18071-uSec, wait= 11710-uSec, user=8010-uSec(44%), system=3700-uSec(20%)
+  VDD_A_Shutdown_Current: 28651-uSec, wait= 18922-uSec, user=15010-uSec(52%), system=3912-uSec(13%)
+  VDD_A_Active_Current: 27670-uSec, wait= 18710-uSec, user=15010-uSec(54%), system=3700-uSec(13%)
+  VDD_B_Shutdown_Current: 26571-uSec, wait= 18922-uSec, user=15010-uSec(56%), system=3912-uSec(14%)
+  VDD_B_Active_Current: 26409-uSec, wait= 18710-uSec, user=15010-uSec(56%), system=3700-uSec(14%)
+  HS_VSD_A            : 18121-uSec, wait= 11410-uSec, user=7310-uSec(40%), system=4100-uSec(22%)
+  LS_VSD_A            : 17525-uSec, wait= 11410-uSec, user=7310-uSec(41%), system=4100-uSec(23%)
+  HS_VSD_B            : 17592-uSec, wait= 11410-uSec, user=7310-uSec(41%), system=4100-uSec(23%)
+  LS_VSD_B            : 15520-uSec, wait= 11410-uSec, user=7310-uSec(47%), system=4100-uSec(26%)
+  OnTestCompletion    : 545-uSec, wait= 484-uSec, user=220-uSec(40%), system=264-uSec(48%)
+  Total Wait          : 356233-uSec, user=250021-uSec, system=106212-uSec
+  Sum Total           : 530620-uSec
+
+Absolute Comparison Timing, Times reported are when tests are completed
+                               Distribution 1
+  OnTestStartup       :             1037-uSec
+  Cont_Vss_VIN_A      :            17633-uSec
+  Cont_Vss_SW_A       :            36024-uSec
+  Cont_Vss_PH_A       :            54164-uSec
+  Cont_Vss_LG_A       :            70316-uSec
+  Cont_Vss_BST_A      :            88434-uSec
+  Cont_Vss_VDD_A      :           106572-uSec
+  Cont_Vss_IOUT_A     :           125433-uSec
+  Cont_Vss_TOUT_A     :           144274-uSec
+  Cont_Vss_PWM_A      :           162440-uSec
+  Cont_Vss_VIN_B      :           181389-uSec
+  Cont_Vss_SW_B       :           198220-uSec
+  Cont_Vss_PH_B       :           216495-uSec
+  Cont_Vss_LG_B       :           232713-uSec
+  Cont_Vss_BST_B      :           250783-uSec
+  Cont_Vss_VDD_B      :           266752-uSec
+  Cont_Vss_IOUT_B     :           282759-uSec
+  Cont_Vss_EN_B       :           301403-uSec
+  Cont_Vss_PWM_B      :           318142-uSec
+  Boot_A_Fwd_Voltage  :           334115-uSec
+  Boot_B_Fwd_Voltage  :           352186-uSec
+  VDD_A_Shutdown_Current:           380839-uSec
+  VDD_A_Active_Current:           408509-uSec
+  VDD_B_Shutdown_Current:           435079-uSec
+  VDD_B_Active_Current:           461489-uSec
+  HS_VSD_A            :           479612-uSec
+  LS_VSD_A            :           497137-uSec
+  HS_VSD_B            :           514729-uSec
+  LS_VSD_B            :           530250-uSec
+  OnTestCompletion    :           530922-uSec
+
+Overall             : 530.998941418877-mSec
+I/O Overhead        : 1.57842006767358-mSec
+
+
